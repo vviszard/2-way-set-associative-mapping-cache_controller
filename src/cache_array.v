@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 //for a 32 bit address, 1KB of cache memory, each cache line is 128 bits that is 4 words. it is byte addressable
-//addres => [22-bit tag | 6-bit index | 4-bit offset]
+//addres => [23-bit tag | 5-bit index | 4-bit offset]
 module cache_array(input clk, 
                    input rst, 
                    input rd_wr, 
